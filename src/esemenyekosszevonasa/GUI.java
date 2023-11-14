@@ -17,6 +17,8 @@ public class GUI extends javax.swing.JFrame {
      */
     public GUI() {
         initComponents();
+        osszeg = 0;
+        jTextField1.setText(osszeg +"Ft");
     }
 
     /**
